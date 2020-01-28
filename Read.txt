@@ -1,0 +1,6 @@
+dotnet user-secrets set "AppSettings:Token" "super secret key"
+dotnet user-secrets list
+
+    "AppSettings": {
+        "Token": "super secret key"
+    },
